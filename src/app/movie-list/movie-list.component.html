@@ -1,3 +1,5 @@
+<button type="button" class="btn btn-light btn-block" data-toggle="modal" data-target="#newMovieLabel">Create New Movie</button>
+
 <div class="row">
   <div class="flip-card col-lg-3" *ngFor="let movie of movies">
     <div class="flip-card-inner">
@@ -17,9 +19,8 @@
     </div>
   </div>
 </div>
-
 <button type="button" class="btn btn-info btn-block" (click)="this.moviesService.getMovies();">Load More Movies</button>
-<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#newMovieLabel">Create New Movie</button>
+
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
